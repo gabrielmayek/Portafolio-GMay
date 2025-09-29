@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background: linear-gradient(to left, #2b2a2b, rgb(87, 87, 87));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h1,
+h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: solid 8px whitesmoke;
+    margin-bottom: 20px;
+    /* margen del borde*/
+    padding: 50px;
+    /*Margen interno*/
+}
+
+mark {
+    background-color: azure;
+    box-shadow: inset;
+}

@@ -2,11 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-    background: linear-gradient(to left, #2b2a2b, rgb(87, 87, 87));
+    background: linear-gradient(to left, #2b2a2b, rgb(91, 89, 92));
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
+
+section.image {
+    width: 300px;
+    height: 200px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    filter: brightness(50%);
+
+}
+
+img:hover {
+    filter: brightness(100%);
+}
+
+a {
+    color: whitesmoke;
+
+}
+
+
 
 h1,
 h2 {

@@ -1,4 +1,23 @@
-// let contacts = [{
+const a = "hello";
+try {
+    console.log(a.toUpperCase());
+
+} catch (error) {
+    console.log(a)
+} finally {
+    console.log(a);
+}
+
+//q3 refe
+//q4 syn
+//q5 referen
+//q6 referen
+//q7 type
+//q8 error , end
+//q9 error , end
+//q11 breack
+//q12 exactly
+// let contacSts = [{
 //     name: "Maxwell Wright",
 //     phone: "(0191) 719 6495",
 //     email: "Curabitur.egestas.nunc@nonummyac.co.uk"

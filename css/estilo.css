@@ -6,9 +6,9 @@
 /* background-color: #e2e2e2; */
 /* background: linear-gradient(to bottom, #AFeeee, #ADD8E6); */
 /* Configuracion global */
-* {
-    margin: auto;
-}
+/* * {
+    margin: 1px;
+} */
 
 body {
 
@@ -71,6 +71,8 @@ section.image {
     border: solid black 2px;
     width: 30%;
     margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -156,22 +158,34 @@ progress::-webkit-progress-value {
 }
 
 #contacto {
-    padding: 30px 20px;
     border-top: solid 5px white;
 }
 
 #contacto label {
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
-    padding: 50px;
+    /* display: flex; */
 }
 
 #contacto input,
-textarea {
+textarea,
+select,
+option {
+    font-family: "Roboto", sans-serif;
+    /* display: flex; */
     border: solid 2px #1e1e1e;
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     width: 30%;
 }
+
+#contacto textarea,
+select,
+option {
+    display: flex;
+
+}
+
 
 #contacto button {
     background-color: #777777;
@@ -183,7 +197,11 @@ textarea {
     font-size: 20px;
 }
 
-.campos {
+#contacto .campos {
     clear: both;
     padding: 30px;
+}
+
+#contacto .opciones {
+    width: 10%;
 }

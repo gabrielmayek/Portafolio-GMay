@@ -1,22 +1,36 @@
-const a = "hello";
-try {
-    console.log(a.toUpperCase());
 
-} catch (error) {
-    console.log(a)
-} finally {
-    console.log(a);
-}
 
-//q3 refe
-//q4 syn
-//q5 referen
-//q6 referen
-//q7 type
-//q8 error , end
-//q9 error , end
-//q11 breack
-//q12 exactly
+// Insert line of code here.
+// let user { }
+//q3 car.color = 'red'; car.model = 'Viper';
+// q4 circle.centre.x
+// q5 POINT[KEY]
+// Q6 ['assa asas asas']
+//q7 Object.keys(user).forEach(keys => console.log(keys));
+//q8 &&
+//q9 Ian 40
+//dogge ram auto ram
+//q11 dodge ram red
+//q12  console.log(`${this.x} ${this.y}`);
+//q14   set positionX(x) { this.x = x }
+//q13 pint['show']();
+//q15 objet.prevenExten
+//q16 ya te la sabes we
+//q17 return{make,model}
+//q18 let getCar = (make, model) => ({ make, model })
+//q19 colorpoint.prototype=point;
+
+
+
+
+
+
+
+
+
+
+
+
 // let contacSts = [{
 //     name: "Maxwell Wright",
 //     phone: "(0191) 719 6495",

@@ -17,6 +17,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+
 }
 
 mark {
@@ -51,7 +52,9 @@ section.image {
 
 #experiencia {
     padding: 30px 40px;
-    border-top: solid 5px #1e1e1e;
+    border-bottom: 5px solid #ffffff;
+    border-top: 5px solid rgb(104, 179, 255);
+
 }
 
 #lista-proyecto {
@@ -68,7 +71,8 @@ section.image {
 .proyecto {
 
     background: linear-gradient(to bottom, #1e1e1e, #2c2c2c);
-    border: solid black 2px;
+    border-bottom: 2px solid rgb(104, 179, 255);
+    border-top: 2px solid white;
     width: 30%;
     margin: 10px;
     padding: 15px;
@@ -87,14 +91,18 @@ h2 {
 
 p,
 h3,
-h4 {
+h4,
+li {
     font-family: "Lato", sans-serif;
 }
 
 header {
     /* background-color: rgb(255, 255, 255); */
     text-align: center;
-    border-bottom: solid 8px black;
+    border-bottom: solid 3px rgb(104, 179, 255);
+    border-top: 2px solid white;
+
+    border-radius: 10px;
     /* margin-bottom: 20px; */
     /* margen del borde*/
     padding: 20px;
@@ -102,9 +110,17 @@ header {
 }
 
 #menu-principal {
+    background: linear-gradient(to bottom, #1e1e1e, #2c2c2c);
+    border-bottom: solid 2px rgb(104, 179, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 0;
+    position: sticky;
     text-align: center;
     padding: 10px 20px;
+    z-index: 200;
 }
+
 
 #menu-principal ul {
     list-style-type: none;
@@ -158,50 +174,72 @@ progress::-webkit-progress-value {
 }
 
 #contacto {
-    border-top: solid 5px white;
-}
 
-#contacto label {
+    place-items: center;
+    margin: 0 auto;
+    border-top: 2px solid rgb(104, 179, 255);
+    border-bottom: 2px solid rgb(104, 179, 255);
+    border-radius: 15px;
+    width: 400px;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    /* display: flex; */
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
-#contacto input,
-textarea,
-select,
-option {
-    font-family: "Roboto", sans-serif;
-    /* display: flex; */
-    border: solid 2px #1e1e1e;
-    font-size: 20px;
-    padding: 5px;
-    width: 30%;
-}
-
-#contacto textarea,
-select,
-option {
-    display: flex;
-
-}
-
-
-#contacto button {
-    background-color: #777777;
-    color: white;
-    padding: 20px 10px;
-    border-radius: 10px;
-    border: none;
-    width: 200px;
+#contacto form {
+    display: grid;
+    gap: 10px;
+    width: 100%;
     font-size: 20px;
 }
 
 #contacto .campos {
-    clear: both;
-    padding: 30px;
+    width: 100%;
 }
 
-#contacto .opciones {
-    width: 10%;
+#contacto .campos label.opciones {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+#contacto .grupo-opciones {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#contacto input[type="checkbox"],
+#contacto input[type="radio"] {
+    margin-right: 4px;
+}
+
+#contacto input[type="text"],
+#contacto textarea,
+#contacto select {
+    font-size: 20px;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid #1e1e1e;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contacto button {
+    background-color: #777777;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    width: 120px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
 }
